@@ -1,5 +1,4 @@
 def greeting
-  # system("artii", "'Fish Frenzy'", "--font slant")
   a = Artii::Base.new :font => 'slant'
   puts a.asciify('Fish Frenzy')
   sleep 0.1

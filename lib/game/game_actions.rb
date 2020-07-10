@@ -19,13 +19,12 @@ def fishing_session(user, location)
     when 1
       puts "You kept the fish!"
       puts ''
-      in_between_fishing(in_between_menu) # Do SOmething
-      # binding.pry
+      in_between_fishing(in_between_menu)
       times_fished += 1
     when 2
       if thrown_back_fish == 3
         puts "You can't throw any more fish..."
-        in_between_fishing(in_between_menu) # Do Something
+        in_between_fishing(in_between_menu)
         times_fished += 1
       elsif thrown_back_fish == 2
         puts "This was the last fish that you could throw."
