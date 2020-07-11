@@ -2,7 +2,6 @@ require_relative '../config/environment'
 
 def final_game
   greeting
-  # `afplay lib/art/sound/pac.mp3 &`
   sleep 1
   system("clear")
   main_menu_method
