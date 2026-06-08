@@ -4,31 +4,36 @@
 Fish Frenzy is a single player, command line interface, arcade game that involves the user going fishing to get a high score.
 
 ### How to install
--Fork or download this repository to your local machine  
 
--Enter into the the main directory  
 
--This is a Ruby CLI game so 'bundle install' before playing   
+- Fork or download this repository to your local machine
 
--To start the game type ruby bin/run.rb  
+- Enter into the the main directory
+
+- This is a Ruby CLI game so `bundle install` before playing
+
+- Run `bundle exec rake db:drop db:create db:migrate db:seed`
+
+- To start the game type `ruby bin/run.rb`
 
 
 ### Rules of Fishing Frenzy
--Each time you play you have 5 opportunities to catch a fish!  
 
--Every time you catch a fish you decide whether you would like to keep it forever or release it back into the wild  
+- Each time you play you have 5 opportunities to catch a fish!  
 
--Careful! You can only release 3 fish back into the wild before you run out of bait  
+- Every time you catch a fish you decide whether you would like to keep it forever or release it back into the wild  
 
--Your total score is based upon the final 5 fish you choose to keep  
+- Careful! You can only release 3 fish back into the wild before you run out of bait  
 
--Each fish is worth different points that vary depending on size and species  
+- Your total score is based upon the final 5 fish you choose to keep  
 
--All locations have different quantities and types of fish  
+- Each fish is worth different points that vary depending on size and species  
 
--There is also a mini fish quiz available to test your fish knowledge  
+- All locations have different quantities and types of fish  
 
--Enjoy!  
+- There is also a mini fish quiz available to test your fish knowledge  
+
+- Enjoy!  
 
 
 ### Creators
