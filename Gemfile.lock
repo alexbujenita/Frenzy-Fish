@@ -30,7 +30,7 @@ GEM
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     io-console (0.8.2)
-    json (2.19.8)
+    json (2.19.9)
     logger (1.7.0)
     lolcat (100.0.1)
       manpages (~> 0.6.1)
@@ -154,7 +154,7 @@ CHECKSUMS
   drb (2.2.3) sha256=0b00d6fdb50995fe4a45dea13663493c841112e4068656854646f418fda13373
   i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
   io-console (0.8.2) sha256=d6e3ae7a7cc7574f4b8893b4fca2162e57a825b223a177b7afa236c5ef9814cc
-  json (2.19.8) sha256=6354310fd76ef69b87d5bd1f38b40d730613baf90b6803d2d0a48f618d32dfaa
+  json (2.19.9) sha256=9b9025b7cdddafa38d316eca0b2358488e42d417045c1b90d216a9fefe46b79a
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   lolcat (100.0.1) sha256=983c8a9bc2742bfcd3a5174564b2710cf177ae96884ee9f112cfe1b61188e88e
   manpages (0.6.1) sha256=cdbad16823c8510c15a93d4cdbd46e7b4290aff8b10f3d4b70caa8e62c8de686
